@@ -1,0 +1,139 @@
+html, body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana;
+	font-size: 0.9em;
+}
+
+.content
+{
+	background-color: lightblue;
+	border: black 1px solid;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px black;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.dateTimeMessage
+{
+	font-weight: normal;
+	font-style: italic;
+	font-size: 0.8em;
+}
+
+#loginForm
+{
+	width: 400px;
+	margin-top: 30vh;
+}
+
+#tchat
+{
+	width: 80%;
+	height: 75vh;
+	min-height: 300px;
+	margin-top: 10vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-item: stretch;
+}
+
+#headerTchat
+{
+	border-bottom: black 1px solid;
+}
+
+#headerTchat form
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 5px;
+}
+
+#loginInfos
+{
+	display: block;
+}
+
+#headerTchat input[type=submit]
+{
+	display: block;
+	float: right;
+}
+
+#bodyTchat
+{
+	border: black 1px solid;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 15px;
+	background-color: #eeeffc;
+	overflow: auto;
+	height: 100%;
+}
+
+.message
+{
+	border: black 1px dotted;
+	padding: 15px;
+	margin-bottom: 10px;
+	background-color: #a3a8ee;
+	width: 70%;
+	float: left;
+}
+
+.mine
+{
+	background-color: #e6c3f9;
+	float: right;
+}
+
+.authorMessage
+{
+	text-decoration: underline;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#footerTchat
+{
+	border-top: black 1px solid;
+}
+
+#loginError
+{
+	color: #cd2400;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
+
+#footerTchat
+{
+	display: flex;
+	flex-direction: column;
+
+}
+
+#footerTchat textarea
+{
+	padding: 5px;
+	height: 65px;
+}
+
+#contentMessage
+{
+	resize: none;
+	height: 100px;
+	width: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 0px;
+	border: black 1px solid;
+}

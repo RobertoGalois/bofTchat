@@ -1,0 +1,3 @@
+- mettre en place un systeme de tokens pour securiser le vol de session
+- securiser le formulaire de selection du pseudo
+- afficher differemment ses propres messages par rapport aux autres
